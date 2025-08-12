@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# venv & caches
+.venv/
+*.pyc
+__pycache__/
+**/__pycache__/
+.ipynb_checkpoints/
+
+# IDE cruft
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# model artifacts
+models/*
+!models/.gitkeep
+
+# (optional) large local data
+data/*.json
+data/*.jsonl
+data/*.gz

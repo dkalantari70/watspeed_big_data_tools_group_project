@@ -1,0 +1,13 @@
+pymongo
+python-dotenv
+boto3
+transformers>=4.42.0
+peft>=0.12.0
+accelerate
+sentence-transformers
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+pandas
+numpy
